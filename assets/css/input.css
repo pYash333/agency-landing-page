@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-btn {
+    @apply text-primary-color text-[0.875rem] leading-[20px] font-medium hover:text-link-color transition-all duration-300;
+  }
+
+  .primary-btn {
+    @apply bg-primary-color text-white text-[0.875rem] leading-[20px] font-medium p-[10px_20px] rounded-[6px] hover:text-white hover:bg-link-color transition-all duration-300;
+  }
+}
