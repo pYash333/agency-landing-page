@@ -17,5 +17,8 @@ $(function () {
     arrows: false,
   }).mount();
 
-
+  $("[data-counter]").counterUp({
+    time: 3000,
+    delay: 80,
+  });
 });
