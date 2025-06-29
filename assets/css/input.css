@@ -10,4 +10,17 @@
   .primary-btn {
     @apply bg-primary-color text-white text-[0.875rem] leading-[20px] font-medium p-[10px_20px] rounded-[6px] hover:text-white hover:bg-link-color transition-all duration-300;
   }
+  .large{
+    @apply p-[14px_32px] text-[1rem] leading-[24px] tracking-normal;
+  }
+
+  h1{
+    @apply text-[3rem] md:text-[4rem] leading-[60px] md:leading-[76px] font-semibold text-secondary-color;
+  }
+  h1 span{
+    @apply text-primary-color;
+  }
+  h2{
+    @apply text-[2rem] md:text-[2.25rem] leading-[44px] md:leading-[40px] font-semibold text-secondary-color;
+  }
 }

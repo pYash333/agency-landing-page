@@ -6,3 +6,7 @@
 a {
   display: inline-block;
 }
+
+.splide__pagination { gap: 8px; bottom: 16px; }
+.splide__pagination .splide__pagination__page { margin: 0; width: 10px; height: 10px; background: #4CAF4F; opacity: 0.3; }
+.splide__pagination .splide__pagination__page.is-active { background: #4CAF4F; opacity: 1; transform: scale(1); }
