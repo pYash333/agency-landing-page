@@ -21,6 +21,9 @@
     @apply text-primary-color;
   }
   h2{
-    @apply text-[2rem] md:text-[2.25rem] leading-[44px] md:leading-[40px] font-semibold text-secondary-color;
+    @apply text-[2rem] md:text-[2.25rem] leading-[40px] md:leading-[44px] font-semibold text-secondary-color;
+  }
+  h3{
+    @apply text-[1.5rem] md:text-[1.75rem] leading-[32px] md:leading-[36px] font-semibold text-secondary-color;
   }
 }

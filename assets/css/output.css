@@ -654,7 +654,7 @@ h1 span {
 h2 {
   font-size: 2rem;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 40px;
   --tw-text-opacity: 1;
   color: rgb(77 77 77 / var(--tw-text-opacity, 1));
 }
@@ -662,7 +662,22 @@ h2 {
 @media (min-width: 768px) {
   h2 {
     font-size: 2.25rem;
-    line-height: 40px;
+    line-height: 44px;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 32px;
+  --tw-text-opacity: 1;
+  color: rgb(77 77 77 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.75rem;
+    line-height: 36px;
   }
 }
 
@@ -678,12 +693,21 @@ h2 {
   top: 84px;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-\[16px\] {
   margin-top: 16px;
 }
 
 .mt-\[32px\] {
   margin-top: 32px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
 }
 
 .mt-\[8px\] {
@@ -706,6 +730,10 @@ h2 {
   height: 20px;
 }
 
+.h-\[48px\] {
+  height: 48px;
+}
+
 .max-h-\[calc\(100\%-84px\)\] {
   max-height: calc(100% - 84px);
 }
@@ -722,20 +750,20 @@ h2 {
   width: 240px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[48px\] {
+  width: 48px;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-1\/6 {
-  width: 16.666667%;
-}
-
-.w-\[calc\(100\%\/7\)\] {
-  width: calc(100% / 7);
-}
-
-.w-\[calc\(\(100\%\/7\)-24px\)\] {
-  width: calc((100% / 7) - 24px);
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .max-w-\[657px\] {
@@ -804,26 +832,37 @@ h2 {
   padding-bottom: 22px;
 }
 
-.py-\[40px_20px\] {
-  padding-top: 40px 20px;
-  padding-bottom: 40px 20px;
-}
-
 .py-\[24px\] {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
+}
+
+.pb-\[24px\] {
+  padding-bottom: 24px;
+}
+
+.pb-\[45px\] {
+  padding-bottom: 45px;
 }
 
 .pb-\[60px\] {
   padding-bottom: 60px;
 }
 
-.pt-\[24px\] {
-  padding-top: 24px;
+.pt-\[20px\] {
+  padding-top: 20px;
 }
 
-.pb-\[20px\] {
-  padding-bottom: 20px;
+.pt-\[21px\] {
+  padding-top: 21px;
+}
+
+.pt-\[24px\] {
+  padding-top: 24px;
 }
 
 .pt-\[40px\] {
@@ -836,6 +875,10 @@ h2 {
 
 .font-Inter {
   font-family: Inter, sans-serif;
+}
+
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
 }
 
 .text-\[16px\] {
@@ -892,6 +935,10 @@ h2 {
     width: auto;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -922,16 +969,16 @@ h2 {
     width: 390px;
   }
 
+  .lg\:w-\[442px\] {
+    width: 442px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 
   .lg\:gap-\[50px\] {
