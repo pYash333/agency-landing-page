@@ -634,7 +634,7 @@ video {
 h1, .h1 {
   font-size: 3rem;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 1;
   --tw-text-opacity: 1;
   color: rgb(77 77 77 / var(--tw-text-opacity, 1));
 }

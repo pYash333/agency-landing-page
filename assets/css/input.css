@@ -15,7 +15,7 @@
   }
 
   h1, .h1{
-    @apply text-[3rem] md:text-[4rem] leading-[60px] md:leading-[76px] font-semibold text-secondary-color;
+    @apply text-[3rem] md:text-[4rem] leading-none md:leading-[76px] font-semibold text-secondary-color;
   }
   h1 span,h2 span{
     @apply text-primary-color;
